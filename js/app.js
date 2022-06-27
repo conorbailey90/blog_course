@@ -82,7 +82,7 @@ window.addEventListener('resize', () => {
 async function fetchProjects(title){
 
     try{
-        let data = await fetch('../api/projects.json');
+        let data = await fetch('./api/projects.json');
         
         projects = await data.json();
 
